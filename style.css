@@ -1,0 +1,58 @@
+.container{
+    border:solid;
+    height: 300px;
+    width: 70%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap:30px;
+    perspective: 600px;
+}
+
+.box{
+    border:solid;
+    height:100px;
+    width:100px;
+}
+
+.box1{
+    transition-property: transform;
+    transition-delay: 8s;
+    transition-duration: 10s;
+    transition-timing-function: ease-in;
+}
+.box1:hover{
+    transform: translate(100px);
+}
+
+.box2{
+     transition-property: transform;
+    transition-delay: 5s;
+    transition-duration: 5s;
+    transition-timing-function: ease-in;
+}
+.box2:hover{
+    transform: scale(1.5,1.5);
+}
+
+.box3{
+     transition-property: transform;
+    transition-delay: 3s;
+    transition-duration: 5s;
+    transition-timing-function: ease-in;
+}
+
+.box3:hover{
+    transform: skewX(65deg);
+}
+
+.box4{
+     transition-property: transform;
+    transition-delay: 3s;
+    transition-duration: 4s;
+    transition-timing-function: linear;
+}
+
+.box4{
+    transform: rotateX(65deg);
+}

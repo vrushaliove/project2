@@ -1,0 +1,14 @@
+:root{
+    --textcolor:blue;
+}
+
+h1{
+    color:var(--textcolor)
+}
+div{
+    color:var(--textcolor)
+}
+
+p{
+    color:var(--textcolor)
+}
